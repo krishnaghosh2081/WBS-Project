@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpForm</title>
+</head>
+<body>
+    <header>
+        <h1>Student SignUp Form!</h1>
+    </header>
+   
+    <section>
+            <form action="index.html" >
+                <fieldset>
+                    <legend>Sign Up Form.</legend>
+                    
+                    <label for="fullName">Full Name: <input id="fullName" type="text" name="fullName" placeholder="Add your name..." required/></label>
+                    <br />
+                    <br />
+                    <label for="email">Email: <input id="email" type="email" name="email" placeholder="Add your email..." required /></label>
+                    <br />
+                    <br />
+                    <label for="message">Message: </label>
+                    <br />
+                    <textarea name="message" id="message" cols="35" rows="10"></textarea>
+                    <br/><br/>
+                    <label for="bootcamps">Select a Course:</label> <br /><br />
+                    
+                    <input type="radio" id="course1" name="fav_course" value="AI Software Development" required>
+                    <label for="course1">AI Software Development</label><br>
+                    <input type="radio" id="course2" name="fav_course" value="AI Compact">
+                    <label for="course2">AI Compact</label><br>
+                    <input type="radio" id="course3" name="fav_course" value="Data Science">
+                    <label for="course3">Data Science</label><br>
+                    <input type="radio" id="course4" name="fav_course" value="UX/UI Design">
+                    <label for="course4">UX/UI Design</label><br>
+
+                    <br /><br />
+
+                    <input type="checkbox" id="newl1" name="newl1" value="Subscribe to Monthly Newsletter">
+                    <label for="newl1"> Subscribe to Monthly Newsletter</label><br>
+                    <input type="checkbox" id="newl2" name="newl1" value="Subscribe to Yearly Newsletter">
+                    <label for="newl2"> Subscribe to Yearly Newsletter</label><br><br/>
+                    
+
+                    <button type="submit"><b>Submit</b></button>   
+                </fieldset>   
+            </form>
+    </section>
+
+    <footer>
+        <p>© 2026 All Rights Reserved.</p>
+    </footer>
+</body>
+
+
+</html>
