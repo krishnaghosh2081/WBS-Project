@@ -1,0 +1,70 @@
+* {
+  padding: 0.1rem;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+* {
+    box-sizing: content-box; 
+    /* 
+    This is the default value and only the content width and height are included to calculate an
+    element's width and height
+    */
+    
+}
+
+body{
+    padding: 15%;
+}
+
+.window{
+    /*padding: 15% 35% 0% 35%;*/
+    
+    border:10px solid rgb(196, 206, 235);
+   
+    
+}
+
+.border{
+    display: flexbox;
+    background-color: rgb(50, 50, 141);
+    padding:10px;
+    color: rgb(237, 241, 241);
+    border-radius: 5px 5px 0px 0px;
+    border-image: linear-gradient(to right, rgb(218, 218, 237), darkorchid) 1;
+   
+}
+
+.main{
+    display: flexbox;
+    padding: 20px 5px;
+    background-color: rgb(199, 199, 202);
+    border-radius: 0dvh 0px 5px 5px;
+    
+}
+
+.figure{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+}
+
+.img{
+    padding: 0px 20px 0px 0px;
+    image-rendering: crisp-edges;
+}
+
+.button{
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  
+}
