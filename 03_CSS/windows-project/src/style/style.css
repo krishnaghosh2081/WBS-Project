@@ -1,70 +1,69 @@
 * {
-  padding: 0.1rem;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   
 }
 
-* {
-    box-sizing: content-box; 
-    /* 
-    This is the default value and only the content width and height are included to calculate an
-    element's width and height
-    */
-    
-}
-
-body{
-    padding: 15%;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: teal;
+  min-height: 100vh;
+  font-size: 12px;
 }
 
 .window{
-    /*padding: 15% 35% 0% 35%;*/
-    
-    border:10px solid rgb(196, 206, 235);
-   
-    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c0c0c0;
+  width: 30rem;
+  border: white 3px solid;
+  border-bottom: black 3px solid;
+  border-right: black 3px solid;
+  box-shadow: 3px 3px 5px 0px rgba(77, 77, 77, 0.8); 
 }
 
 .border{
-    display: flexbox;
-    background-color: rgb(50, 50, 141);
-    padding:10px;
-    color: rgb(237, 241, 241);
-    border-radius: 5px 5px 0px 0px;
-    border-image: linear-gradient(to right, rgb(218, 218, 237), darkorchid) 1;
+    background: linear-gradient(90deg, rgb(11, 38, 108), rgb(162, 203, 245));
+    color: white;
+    padding: 0.2rem 1rem;
+    font-weight: bold;
    
 }
 
 .main{
-    display: flexbox;
-    padding: 20px 5px;
-    background-color: rgb(199, 199, 202);
-    border-radius: 0dvh 0px 5px 5px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: center;
     
 }
 
-.figure{
-    display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    
+.main figure img {
+  width: 15%;
 }
 
-.img{
-    padding: 0px 20px 0px 0px;
-    image-rendering: crisp-edges;
+.main .col-80 {
+  width: 75%;
+}
+.main .col-20 {
+  width: 10%;
 }
 
-.button{
-  border-radius: 5px 5px 0px 0px;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
-  
+.button {
+  padding: 0.2rem 0.5rem;
+  background-color: #c0c0c0;
+  border: white 3px solid;
+  border-bottom: 3px black solid;
+  border-right: 3px black solid;
+  box-shadow: 1px 2px 4px 0px rgb(77, 77, 77);
+}
+
+.buttontn:active {
+    box-shadow: inset 1px 2px 2px 0px rgb(77, 77, 77);
 }
